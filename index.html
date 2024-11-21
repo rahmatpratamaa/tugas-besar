@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Kesehatan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#fitur">Fitur</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+
+   <!-- Daftar Pemeriksaan Kesehatan -->
+<section id="pemeriksaan" class="pemeriksaan-section">
+    <h2 class="pemeriksaan-title">Daftar Pemeriksaan Kesehatan</h2>
+    <div class="pemeriksaan-container">
+        <div class="pemeriksaan-item">
+            <div class="pemeriksaan-img">
+                <img src="jantung.jpg" alt="Pemeriksaan Jantung">
+            </div>
+            <div class="pemeriksaan-info">
+                <h3>Pemeriksaan Jantung</h3>
+                <p>Menilai kondisi jantung Anda dengan tes elektrokardiogram (EKG) dan ekokardiogram untuk deteksi dini masalah jantung.</p>
+                <button class="btn-lebih-lanjut">Pelajari Lebih Lanjut</button>
+            </div>
+        </div>
+        <div class="pemeriksaan-item">
+            <div class="pemeriksaan-img">
+                <img src="periksa darah.webp" alt="Pemeriksaan Darah">
+            </div>
+            <div class="pemeriksaan-info">
+                <h3>Pemeriksaan Darah Lengkap</h3>
+                <p>Mengukur berbagai komponen darah untuk mengetahui kadar gula, kolesterol, dan kesehatan tubuh secara menyeluruh.</p>
+                <button class="btn-lebih-lanjut">Pelajari Lebih Lanjut</button>
+            </div>
+        </div>
+        <div class="pemeriksaan-item">
+            <div class="pemeriksaan-img">
+                <img src="images.jpg" alt="Pemeriksaan Gigi">
+            </div>
+            <div class="pemeriksaan-info">
+                <h3>Pemeriksaan Gigi</h3>
+                <p>Pemeriksaan kesehatan gigi dan mulut untuk mencegah masalah seperti karies, gigi berlubang, dan gusi berdarah.</p>
+                <button class="btn-lebih-lanjut">Pelajari Lebih Lanjut</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+   <!-- Bagian Fitur -->
+<section id="fitur" class="fitur-section">
+    <h2 class="fitur-title">Fitur Utama Layanan Kesehatan</h2>
+    <div class="fitur-container">
+        <div class="fitur-item">
+            <div class="fitur-img">
+                <img src="result_terintegrasi.jpg" alt="Pemeriksaan Kesehatan">
+            </div>
+            <div class="fitur-info">
+                <h3>Pemeriksaan Kesehatan Terintegrasi</h3>
+                <p>Melakukan pemeriksaan kesehatan secara menyeluruh dengan hasil yang mudah dipahami dan diterjemahkan oleh profesional medis kami.</p>
+            </div>
+        </div>
+        <div class="fitur-item">
+            <div class="fitur-img">
+                <img src="result_online.jpg" alt="Konsultasi Dokter">
+            </div>
+            <div class="fitur-info">
+                <h3>Konsultasi dengan Dokter Ahli</h3>
+                <p>Konsultasi langsung dengan dokter melalui video call atau pesan untuk mendapatkan saran medis yang dapat diandalkan.</p>
+            </div>
+        </div>
+        <div class="fitur-item">
+            <div class="fitur-img">
+                <img src="result_obat.jpg" alt="Resep Obat">
+            </div>
+            <div class="fitur-info">
+                <h3>Resep dan Pengobatan</h3>
+                <p>Setelah konsultasi, Anda akan mendapatkan resep medis yang dapat langsung digunakan dengan panduan yang mudah diikuti.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Formulir Pendaftaran -->
+<section id="pendaftaran" class="pendaftaran-section">
+    <h2 class="pendaftaran-title">Pendaftaran Layanan Kesehatan</h2>
+    <form id="form-pendaftaran" class="pendaftaran-form">
+        <div class="input-group">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+            <span class="error-message" id="nama-error"></span>
+        </div>
+        <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan email" required>
+            <span class="error-message" id="email-error"></span>
+        </div>
+        <div class="input-group">
+            <button type="submit" class="btn-daftar">Daftar Sekarang</button>
+        </div>
+    </form>
+</section>
+
+    <!-- Footer -->
+    <footer id="kontak">
+        <p>nomor hp: <a href="mailto:kontak@kesehatan.com">082228134119</a></p>
+        <p>Email:<a href="mailto:Jl. Sehat No. 123, Jakarta, Indonesia">rahmatprtama881@gmail.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
